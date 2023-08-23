@@ -27,6 +27,21 @@ ul li{
 .text-green{
     color: var(--green);
 }
+
+.btn-read{
+    border: 2px solid var(--green-dark);
+    border-radius: 1.5rem;
+    padding: 0.3rem 1rem;
+}
+
+.btn-read:hover{
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.3rem 1rem;
+    background-color: var(--green-dark);
+    color: #fff;
+}
+
 .btn{
     border: 2px solid #fff;
     border-radius: 1.5rem;
@@ -53,9 +68,7 @@ ul li{
 }
 
 /* header */
-header{
-    height: 80vh;
-}
+
 .navbar-brand .fa{
     font-size: 1.3rem;
 }
@@ -72,6 +85,24 @@ header{
 }
 .phone-img img{
     width: 500px;
+}
+
+.allbanner{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/homebanner.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.homebanner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/homeimg.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* section 6 */

@@ -17,195 +17,188 @@
 </head>
 
 <body>
-    <header class="pb-5 overflow-hidden bg-green">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                    <img src="images/Logo.png" class="logo"> 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./services.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <header class="container-fluid  bg-green sticky-top">
 
-
-            <div class="row">
-                <div class="col-lg-6 mx-auto text-white text-center">
-                    <h1 class="display-5 fw-normal mt-5">Registration Form</h1>
-                    
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <img src="images/Logo.png" class="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./the-placement-solution.html">The Placement Solution</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+
+
+
+
     </header>
 
     <div class="container py-5">
         <div class="row">
-           
+
             <div class="col-lg-12 col-md-12">
-            <div class="row">
-                <h2>Registration</h2>
-                <p>All fields are mandatory</p>
+                <div class="row">
+                    <h2>Registration Form</h2>
+                    <p>All fields are mandatory</p>
+                </div>
+                <form class="row g-3">
+                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control"
+                            placeholder="first name" value=""></div>
+                    <div class="col-md-6"><label class="labels">Email ID</label><input type="text" class="form-control"
+                            placeholder="enter email id" value=""></div>
+                    <div class="col-md-6"><label class="labels">Mobile Number</label><input type="text"
+                            class="form-control" placeholder="enter phone number" value=""></div>
+                    <div class="col-md-6"><label class="labels">Higher Education</label><input type="text"
+                            class="form-control" placeholder="education" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address</label><input type="text" class="form-control"
+                            placeholder="Please enter address" value=""></div>
+                    <div class="col-md-6"><label class="labels">Postcode</label><input type="text" class="form-control"
+                            placeholder="Please enter postal code" value=""></div>
+
+                    <div class="col-md-6"><label class="labels">State</label><input type="text" class="form-control"
+                            placeholder="Please enter state" value=""></div>
             </div>
-            <form class="row g-3">
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">First</label>
-                    <input type="text" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Last</label>
-                    <input type="text" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-               
-                <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                  <label for="inputState" class="form-label">State</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                  </div>
-                  <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                  </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-green mt-2">Sign in</button>
-                </div>
-              </form>
+
+            <div class="col-md-6  mt-3"><label class="labels">Job location</label><input type="text"
+                    class="form-control" placeholder="Please enter the job location" value="">
             </div>
-           
+            <div class="col-md-6  mt-3"><label class="labels">Experience</label><input type="text" class="form-control"
+                    value="" placeholder="Please enter experience"></div>
+
+            <div class="col-md-6  mt-3"><label class="labels">Referal Code</label><input type="text"
+                    class="form-control" placeholder="referal code" value="" readonly></div>
+
+            <div class="col-md-6  mt-3"><label class="labels">Update your
+                    Resume</label><input type="file" class="form-control" value=""></div>
         </div>
+
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-green mt-2">Send</button>
+        </div>
+
+
+        </form>
     </div>
 
-  
+    </div>
+    </div>
 
-<!-- footer -->
-<footer class="bg-green">
-    <div class="container">
-        <div class="row  py-5">
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h3 class="text-white">Services</h3>
-                <ul class="list-unstyled footer-list">
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                </ul>
+
+
+    
+    <!-- footer -->
+
+    <footer class="bg-green">
+        <div class="container">
+            <div class="row  py-5">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="text-white">Information</h3>
+                    <img src="./images/Logo.png">
+                    <p class="pt-2 text-white">Welcome to The Placement Solution, your premier destination for personalized placement solutions. We are a dedicated team of professionals committed to connecting talented individuals with exceptional opportunities.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="text-white">Quick Links</h3>
+                    <ul class="list-unstyled footer-list">
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./about.html">
+                            <li>About Us</li>
+                        </a>
+                        <a href="./services.html">
+                            <li>Services</li>
+                        </a>
+                        <a href="./contact.html">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="./privacy-policy.html">
+                            <li>Privacy Policy</li>
+                        </a>
+                        <a href="./terms-and-conditions.html">
+                            <li>Terms & Conditions</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="text-white">Our Services</h3>
+                    <ul class="list-unstyled footer-list">
+                        <a href="./services.html#services1">
+                            <li>Personalized Career Guidance</li>
+                        </a>
+                        <a href="./services.html#services2">
+                            <li>Extensive Network</li>
+                        </a>
+                        <a href="./services.html#services3">
+                            <li>Resume Building and Interview Preparation</li>
+                        </a>
+                        <a href="./services.html#services4">
+                            <li>Job Search Assistance</li>
+                        </a>
+                        <a href="./services.html#services5">
+                            <li>Industry-specific Insights</li>
+                        </a>
+                        <a href="./services.html#services16">
+                            <li>Internship and Training Programs</li>
+                        </a>
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="text-white">Contact Us</h3>
+                    <ul class="list-unstyled footer-list">
+                        <a href="#">
+                            <li> <i class="fa fa-map pe-2"></i> B-57 gali number 11, G block 25 foota road Molarband extension Badarpur New Delhi 110044.</li>
+                        </a>
+
+                        <a href="#">
+                            <li><i class="fa fa-envelope pe-2"></i> xyz@gmail.com</li>
+                        </a>
+                        <a href="#">
+                             <li> <i class="fa fa-phone pe-2"></i>+915659685989</li>
+                        </a>
+
+                    </ul>
+                    <ul class="list-unstyled footer-list d-flex text-white">
+                        <li><i class="fab fa-facebook-f px-2"></i></li>
+                        <li><i class="fab fa-whatsapp px-2"></i></li>
+                        <li><i class="fab fa-instagram px-2"></i></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h3 class="text-white">Company</h3>
-                <ul class="list-unstyled footer-list">
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                    <a href="#">
-                        <li>Global Sourcing</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h3 class="text-white">Office</h3>
-                <ul class="list-unstyled footer-list">
-                    <a href="#">
-                        <li>2nd Floor, Millennium Business Center, Nehru Place, New Delhi 110 019</li>
-                    </a>
+            <div class="row pt-4 text-white">
 
-
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h3 class="text-white">Contact Us</h3>
-                <ul class="list-unstyled footer-list">
-                    <a href="#">
-                        <li>xyz@gmail.com</li>
-                    </a>
-                    <a href="#">
-                        <li>+915659685989</li>
-                    </a>
-
-                </ul>
-                <ul class="list-unstyled footer-list d-flex text-white">
-                    <li><i class="fab fa-facebook-f px-2"></i></li>
-                    <li><i class="fab fa-twitter px-2"></i></li>
-                    <li><i class="fab fa-instagram px-2"></i></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row pt-4 text-white">
-
-            <div class="col-lg-6 mx-auto text-center">
-                <div>
-                    <p><span class="fw-bold">Destiny &copy;</span> Copyright 2021</p>
+                <div class="col-lg-6 mx-auto text-center">
+                    <div>
+                        <p><span class="fw-bold">Placement Solution &copy;</span> Copyright 2023</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 
 
     <script src="bootstrap/js/bootstrap.js"></script>
